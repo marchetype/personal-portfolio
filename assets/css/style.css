@@ -88,12 +88,12 @@ a {
 .locator {
     display: flex;
     border-right: 3px solid var(--lightblue);
-    height: 200px;
+    height: 50px;
     width: 150px;
 }
 
 footer .locator {
-    height: 100px;
+    height: 50px;
 }
 
 .about-content {
@@ -127,7 +127,7 @@ footer .locator {
     border: 5px solid var(--darkteal);
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 15%;
+    margin-left: 5%;
 
 }
 
@@ -143,16 +143,21 @@ footer .locator {
     padding: 10px;
     border-radius: 5px 0px 0px 5px;
     position: absolute;
-
 }
 .project-desc{
     font-size: 16px;
 }
-/*
+
 .past-project {
+    height: 190px;
+    width: 190px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 5px solid var(--darkteal);
+    margin: 10px;
 
 }
-*/
+
 .contact-list {
     width: 100%;
     display: flex;
@@ -168,6 +173,6 @@ footer .locator {
 }
 
 .background-image:hover {
-    filter:blur(0px);
+    filter: blur(0px);
 
 }
