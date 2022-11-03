@@ -90,6 +90,7 @@ a {
     border-right: 3px solid var(--lightblue);
     height: 50px;
     width: 150px;
+    align-content: center;
 }
 
 footer .locator {
@@ -103,19 +104,21 @@ footer .locator {
     
 }
 
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     border-top: 2px solid var(--dark);
     border-bottom: 2px solid var(--dark);
     padding-top: 30px;
     padding-bottom: 30px;
     height: auto;
 }
-
-.project-cards {
+/* code projects to be seperate from any other mediums in portfolio list */
+.code-project-cards {
     width: 100%;
-    display: flex;
+    display: block;
 }
 
 .current-project {
@@ -148,11 +151,19 @@ footer .locator {
     font-size: 16px;
 }
 
+.grid {
+    .grid {
+        display: grid;
+        width: 100%;
+        grid-template-columns:
+    repeat(2, 1fr);
+    }
+                        
+}
+
 .past-project {
     height: 190px;
     width: 190px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
     border: 5px solid var(--darkteal);
     margin: 10px;
 
@@ -174,5 +185,4 @@ footer .locator {
 
 .background-image:hover {
     filter: blur(0px);
-
 }
