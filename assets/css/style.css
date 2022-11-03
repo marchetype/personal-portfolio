@@ -26,6 +26,7 @@ header {
     width: 100%;
 }
 
+
 .header-name {
     color: var(--black);
     background-color: var(--lightblue);
@@ -68,29 +69,105 @@ a {
     transition-duration: 250ms;
 }
 
-.page-link:hover {
+.scroll-link:hover {
     color: var(--lightblue);
     border-left: 3px solid var(--light);
 }
 
 .img-display {
-
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    transform: rotate(180deg);
+    filter: blur(8px);
+    position: relative;
+    left: -40px;
 }
 
 .locator {
     display: flex;
     border-right: 3px solid var(--lightblue);
-    width: 10%;
     height: 200px;
+    width: 150px;
+}
+
+footer .locator {
+    height: 100px;
 }
 
 .about-content {
-    width: 75%;
+    padding-top: 30px;
+    padding-left: 15px;
     display: flex;
-    justify-content: flex-end;
+    
 }
 
-#about-me {
-    position: relative;
-    border: 5px solid var(--light);
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid var(--dark);
+    border-bottom: 2px solid var(--dark);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+.project-cards {
+    width: 100%;
+    display: flex;
+}
+
+.current-project {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: 400px;
+    max-width: 800px;
+    border: 5px solid var(--darkteal);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+
+}
+
+.background-image {
+    overflow: auto;
+    filter: blur(2px);
+    transition-duration: 100ms;
+
+}
+
+.project-title {
+    background-color: var(--darkteal);
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    position: absolute;
+
+}
+.project-desc{
+    font-size: 16px;
+}
+/*
+.past-project {
+
+}
+*/
+.contact-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about-me, #work, #contact-me {
+    display:flex;
+    flex-direction: row;
+   
+}
+
+.background-image:hover {
+    filter:blur(0px);
+
 }
