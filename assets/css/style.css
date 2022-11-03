@@ -12,12 +12,13 @@ html {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--black);
+    color: var(--light);
 }
 
 header {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    position: relative;
+    top: 0;
+    left: 0;
     border: 5px solid var(--dark);
     border-bottom: 5px solid var(--black);
     box-shadow: inset 0px 0px 8px var(--black);
@@ -58,7 +59,7 @@ a {
     font-weight: bold;
 }
 
-.page-link {
+.scroll-link {
     display: inline;
     padding-left: 10px;
     border-left: 3px solid var(--dark);
@@ -70,4 +71,26 @@ a {
 .page-link:hover {
     color: var(--lightblue);
     border-left: 3px solid var(--light);
+}
+
+.img-display {
+
+}
+
+.locator {
+    display: flex;
+    border-right: 3px solid var(--lightblue);
+    width: 10%;
+    height: 200px;
+}
+
+.about-content {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#about-me {
+    position: relative;
+    border: 5px solid var(--light);
 }
