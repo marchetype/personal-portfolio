@@ -1,6 +1,6 @@
 ## README
 
-# Mark Barstow / module-2-challenge
+# Mark Barstow / Personal Portfolio
 
 ## Goals
 
