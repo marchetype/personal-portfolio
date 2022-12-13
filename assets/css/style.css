@@ -168,8 +168,8 @@ footer .locator {
 }                        
 
 .past-project {
-    height: max-content;
-    width: max-content;
+    height: fit-content;
+    width: fit-content;
     border: 5px;
     margin-top: 25px;
     margin-left: 25px;
