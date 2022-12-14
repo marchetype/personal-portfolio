@@ -1,0 +1,56 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --beige: #f5f5dc;
+    --light: #f88b2c;
+    --norm: #c13f10;
+    --dark: #712304;
+
+}
+
+header {
+    height: 100px;
+    background-color: var(--beige);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxdiv {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#bigbox {
+    border-radius: 80px;
+    height: 500px;
+    width: 1000px;
+    background-color: var(--dark);
+
+}
+
+#medbox {
+    border-radius: 70px;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--norm);
+
+}
+
+#smlbox {
+    border-radius: 35px;
+    height: 125px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light);
+
+}
