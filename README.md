@@ -42,7 +42,7 @@
 
 ## Webpage Deployment
 
-- The link to the deployed GitHub Pages Website is [here](https://marchetype.github.io/module-2-challenge/).
+- The link to the deployed GitHub Pages Website is [here](https://marchetype.github.io/personal-portfolio/).
 
 - Screenshot of deployed site: 
 ![Deployed Site](./assets/images/deployed-mod2-ss.png)
